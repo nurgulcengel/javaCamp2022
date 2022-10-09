@@ -1,0 +1,14 @@
+C:\Users\pcc\source\repos\YoutubeDemo\YoutubeDemo\bin\Debug\netcoreapp3.1\YoutubeDemo.exe
+C:\Users\pcc\source\repos\YoutubeDemo\YoutubeDemo\bin\Debug\netcoreapp3.1\YoutubeDemo.deps.json
+C:\Users\pcc\source\repos\YoutubeDemo\YoutubeDemo\bin\Debug\netcoreapp3.1\YoutubeDemo.runtimeconfig.json
+C:\Users\pcc\source\repos\YoutubeDemo\YoutubeDemo\bin\Debug\netcoreapp3.1\YoutubeDemo.runtimeconfig.dev.json
+C:\Users\pcc\source\repos\YoutubeDemo\YoutubeDemo\bin\Debug\netcoreapp3.1\YoutubeDemo.dll
+C:\Users\pcc\source\repos\YoutubeDemo\YoutubeDemo\bin\Debug\netcoreapp3.1\YoutubeDemo.pdb
+C:\Users\pcc\source\repos\YoutubeDemo\YoutubeDemo\obj\Debug\netcoreapp3.1\YoutubeDemo.csproj.AssemblyReference.cache
+C:\Users\pcc\source\repos\YoutubeDemo\YoutubeDemo\obj\Debug\netcoreapp3.1\YoutubeDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pcc\source\repos\YoutubeDemo\YoutubeDemo\obj\Debug\netcoreapp3.1\YoutubeDemo.AssemblyInfoInputs.cache
+C:\Users\pcc\source\repos\YoutubeDemo\YoutubeDemo\obj\Debug\netcoreapp3.1\YoutubeDemo.AssemblyInfo.cs
+C:\Users\pcc\source\repos\YoutubeDemo\YoutubeDemo\obj\Debug\netcoreapp3.1\YoutubeDemo.csproj.CoreCompileInputs.cache
+C:\Users\pcc\source\repos\YoutubeDemo\YoutubeDemo\obj\Debug\netcoreapp3.1\YoutubeDemo.dll
+C:\Users\pcc\source\repos\YoutubeDemo\YoutubeDemo\obj\Debug\netcoreapp3.1\YoutubeDemo.pdb
+C:\Users\pcc\source\repos\YoutubeDemo\YoutubeDemo\obj\Debug\netcoreapp3.1\YoutubeDemo.genruntimeconfig.cache
