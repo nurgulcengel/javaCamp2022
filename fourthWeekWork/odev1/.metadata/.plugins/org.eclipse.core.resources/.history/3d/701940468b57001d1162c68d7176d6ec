@@ -1,0 +1,48 @@
+package kodlama.io.devs.business.concretes;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import kodlama.io.devs.business.abstracts.ProgrammingLanguageService;
+import kodlama.io.devs.entities.concretes.ProgrammingLanguage;
+
+
+@Service
+public class ProgrammingLanguageManager implements ProgrammingLanguageService   {
+
+	ProgrammingLanguageRepository programmingLanguageRepository;
+	
+	
+	
+	@Override
+	public List<ProgrammingLanguage> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ProgrammingLanguage getById(ProgrammingLanguage programmingLanguage) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void add(ProgrammingLanguage programmingLanguage) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(ProgrammingLanguage programmingLanguage) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(ProgrammingLanguage programmingLanguage) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
