@@ -28,36 +28,36 @@ public class PLanguageTechnologiesController {
 	}
 
 	@GetMapping("/getall")
-	List<GetPLanguageTechnologyResponse> getAll() {
+	public List<GetPLanguageTechnologyResponse> getAll() {
 
 		return pLanguageTechnologyService.getAll();
 	};
 
 	@GetMapping("/findbyprogramminlanguageid/{pLanguageId}")
-	List<GetPLanguageTechnologyResponse> findByProgrammingLanguageId(@PathVariable int pLanguageId) {
+	public List<GetPLanguageTechnologyResponse> findByProgrammingLanguageId(@PathVariable int pLanguageId) {
 
 		return pLanguageTechnologyService.findByProgrammingLanguageId(pLanguageId);
 	};
 
 	@GetMapping("/getbyid/{id}")
-	GetPLanguageTechnologyResponse getById(@PathVariable int id) throws Exception {
+	public GetPLanguageTechnologyResponse getById(@PathVariable int id) throws Exception {
 		return pLanguageTechnologyService.getById(id);
 	};
 
 	@PostMapping("/add")
-	void add(@RequestBody CreatePLanguageTechnologyRequest createPLanguageTechnologyRequest) {
+	public void add(@RequestBody CreatePLanguageTechnologyRequest createPLanguageTechnologyRequest) {
 
 		pLanguageTechnologyService.add(createPLanguageTechnologyRequest);
 	};
 
 	@PostMapping("/delete")
-	void delete(@RequestBody UpdatePLanguageTechnologyRequest updatePLanguageTechnologyRequest) {
+	public void delete(@RequestBody UpdatePLanguageTechnologyRequest updatePLanguageTechnologyRequest) {
 
 		pLanguageTechnologyService.delete(updatePLanguageTechnologyRequest);
 	};
 
 	@PostMapping("/update")
-	void update(@RequestBody UpdatePLanguageTechnologyRequest updatePLanguageTechnologyRequest) {
+	public void update(@RequestBody UpdatePLanguageTechnologyRequest updatePLanguageTechnologyRequest) {
 		pLanguageTechnologyService.update(updatePLanguageTechnologyRequest);
 	};
 
