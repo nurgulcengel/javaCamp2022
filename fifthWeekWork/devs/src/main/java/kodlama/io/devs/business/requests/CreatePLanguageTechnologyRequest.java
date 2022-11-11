@@ -1,21 +1,20 @@
 package kodlama.io.devs.business.requests;
 
-import kodlama.io.devs.entities.concretes.ProgrammingLanguage;
-
 public class CreatePLanguageTechnologyRequest {
 
 	public CreatePLanguageTechnologyRequest() {
 
 	}
 
-	public CreatePLanguageTechnologyRequest(String name,  ProgrammingLanguage programmingLanguage) {
+	public CreatePLanguageTechnologyRequest(String name, int pLanguageId) {
 
 		this.name = name;
-		this.setProgrammingLanguage(programmingLanguage);
+		this.pLanguageId=pLanguageId;
+		
 	}
 
 	private String name;
-	private ProgrammingLanguage programmingLanguage;
+	private int pLanguageId;
 
 	public String getName() {
 		return name;
@@ -25,13 +24,15 @@ public class CreatePLanguageTechnologyRequest {
 		this.name = name;
 	}
 
-	public ProgrammingLanguage getProgrammingLanguage() {
-		return programmingLanguage;
+	public int getpLanguageId() {
+		return pLanguageId;
 	}
 
-	public void setProgrammingLanguage(ProgrammingLanguage programmingLanguage) {
-		this.programmingLanguage = programmingLanguage;
+	public void setpLanguageId(int pLanguageId) {
+		this.pLanguageId = pLanguageId;
 	}
+
+
 
 
 }

@@ -21,7 +21,7 @@ public class PLanguageTechnology {
 	private String name;
 
 	@ManyToOne()
-	@JoinColumn(name = "programmingLanguage_id", nullable = false)
+	@JoinColumn(name = "programmingLanguage_id")
 	private ProgrammingLanguage programmingLanguage;
 
 	public PLanguageTechnology() {

@@ -6,10 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import io.swagger.v3.oas.annotations.parameters.RequestBody;
+
 import kodlama.io.devs.business.abstracts.PLanguageTechnologyService;
 import kodlama.io.devs.business.requests.CreatePLanguageTechnologyRequest;
 import kodlama.io.devs.business.requests.UpdatePLanguageTechnologyRequest;
@@ -28,36 +29,36 @@ public class PLanguageTechnologiesController {
 	}
 
 	@GetMapping("/getall")
-	List<GetPLanguageTechnologyResponse> getAll() {
+	public List<GetPLanguageTechnologyResponse> getAll() {
 
 		return pLanguageTechnologyService.getAll();
 	};
 
 	@GetMapping("/findbyprogramminlanguageid/{pLanguageId}")
-	List<GetPLanguageTechnologyResponse> findByProgrammingLanguageId(@PathVariable int pLanguageId) {
+	public List<GetPLanguageTechnologyResponse> findByProgrammingLanguageId(@PathVariable int pLanguageId) {
 
 		return pLanguageTechnologyService.findByProgrammingLanguageId(pLanguageId);
 	};
 
 	@GetMapping("/getbyid/{id}")
-	GetPLanguageTechnologyResponse getById(@PathVariable int id) throws Exception {
+	public GetPLanguageTechnologyResponse getById(@PathVariable int id) throws Exception {
 		return pLanguageTechnologyService.getById(id);
 	};
 
 	@PostMapping("/add")
-	void add(@RequestBody CreatePLanguageTechnologyRequest createPLanguageTechnologyRequest) {
+	public void add(@RequestBody CreatePLanguageTechnologyRequest createPLanguageTechnologyRequest) {
 
 		pLanguageTechnologyService.add(createPLanguageTechnologyRequest);
 	};
 
 	@PostMapping("/delete")
-	void delete(@RequestBody UpdatePLanguageTechnologyRequest updatePLanguageTechnologyRequest) {
+	public void delete(@RequestBody UpdatePLanguageTechnologyRequest updatePLanguageTechnologyRequest) {
 
 		pLanguageTechnologyService.delete(updatePLanguageTechnologyRequest);
 	};
 
 	@PostMapping("/update")
-	void update(@RequestBody UpdatePLanguageTechnologyRequest updatePLanguageTechnologyRequest) {
+	public void update(@RequestBody UpdatePLanguageTechnologyRequest updatePLanguageTechnologyRequest) {
 		pLanguageTechnologyService.update(updatePLanguageTechnologyRequest);
 	};
 
